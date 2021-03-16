@@ -1,0 +1,14 @@
+<div class="walk-display-container">
+    <div class="walk-sign-display">
+        <p *ngIf="displayWalk else dontWalk">Walk</p>
+        <ng-template #dontWalk>
+            <p style="color: red;">
+                Dont
+                Walk
+            </p>
+        </ng-template>
+    </div>
+
+    <button class="walk-btn" (click)="onBtnPushed()"></button>
+
+</div>

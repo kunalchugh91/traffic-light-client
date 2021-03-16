@@ -1,0 +1,8 @@
+<div class="lights-container">
+    <div *ngFor="let state of trafficLightStates" class="light">
+        <traffic-light [currentState]="state"></traffic-light>
+    </div>
+</div>
+
+<pedestrian-walk-signal [displayWalk]="currentLight == -1" (onWalkBtnPushed)="onWalkBtnPushed()">
+</pedestrian-walk-signal>

@@ -1,0 +1,40 @@
+.walk-display-container {
+  float: right;
+  height: 600px;
+  width: 200px;
+  border: solid 5px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  padding: 10px;
+}
+
+.walk-sign-display {
+  height: 50%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  display: table;
+}
+
+.walk-sign-display p {
+  display: table-cell;
+  text-align: center;
+  font-size: 3em;
+  vertical-align: middle;
+}
+
+.walk-btn {
+  width: 180px;
+  height: 180px;
+  border: solid 2px black;
+  border-radius: 90px;
+  background-color: darkgray;
+}
+.walk-btn:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}

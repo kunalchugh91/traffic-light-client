@@ -1,0 +1,27 @@
+.body {
+  height: 600px;
+  width: 200px;
+  border: solid 5px black;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  flex: 1 1 auto;
+  border-radius: 100px;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+.body > .red {
+  background-color: red;
+}
+
+.body > .yellow {
+  background-color: yellow;
+}
+
+.body > .green {
+  background-color: green;
+}
